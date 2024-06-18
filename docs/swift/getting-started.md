@@ -76,10 +76,6 @@ We're going to generate our code using [Buf][buf], a modern replacement for
 Google's protobuf compiler. We installed Buf earlier, but we also need a few
 configuration files to get going.
 
-```bash
-$ cd ..
-```
-
 First, scaffold a basic [`buf.yaml`][buf.yaml] by running `buf config init`. Then, edit `buf.yaml`
 to use our `proto` directory:
 

@@ -73,10 +73,6 @@ but we also need a configuration file to get going. (If you'd prefer, you can
 skip this section and use `protoc` instead &mdash; `protoc-gen-connect-es`
 behaves like any other plugin.)
 
-```bash
-$ cd ..
-```
-
 First, scaffold a basic [`buf.yaml`][buf.yaml]:
 
 ```bash
